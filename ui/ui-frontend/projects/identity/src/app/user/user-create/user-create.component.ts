@@ -52,6 +52,7 @@ import { UserCreateValidators } from './user-create.validators';
 
 const PROGRESS_BAR_MULTIPLICATOR = 100;
 const LAST_STEP_INDEX = 2;
+// tslint:disable-next-line:max-line-length
 const emailValidator: RegExp = /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
 
 @Component({
