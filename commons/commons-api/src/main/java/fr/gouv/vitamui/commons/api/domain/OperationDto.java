@@ -63,7 +63,7 @@ public class OperationDto extends IdDto implements IOperationDto {
     private static final long serialVersionUID = -3962480065920989325L;
 
     @NotNull
-    private OperationType type;
+    private String type;
 
     @NotNull
     private Integer tenantIdentifier;

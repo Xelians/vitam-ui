@@ -52,9 +52,9 @@ public interface IOperationDto {
 
     void setId(String id);
 
-    OperationType getType();
+    String getType();
 
-    void setType(OperationType type);
+    void setType(String type);
 
     Integer getTenantIdentifier();
 
